@@ -28,7 +28,8 @@ body {
     -ms-word-break: break-all;
     font-size: 1em;
 	-webkit-text-size-adjust:none;
-	overflow-x:hidden;
+    overflow-x:hidden;
+    color:#333;
 }
 
 header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {

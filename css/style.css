@@ -6,6 +6,25 @@
     z-index:10;
 }
 /*헤더*/
+header{
+    background:#fff;
+}
+.header-inner{
+    max-width:1820px;
+    margin:0 auto;
+}
+.header-menu{
+    max-width:870px;
+    margin:0 auto;
+    display:flex;
+}
+.header-menu a{
+    padding:2em 0;
+}
+.header-menu a.on{
+    color:#204496;
+    border-bottom:2px solid #204496;
+}
 /*메인*/
 /*푸터*/
 footer{
