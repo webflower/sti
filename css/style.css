@@ -1,0 +1,33 @@
+/*공통*/
+.inner{
+    max-width:1200px;
+    margin:0 auto;
+    position: relative;
+    z-index:10;
+}
+/*헤더*/
+/*메인*/
+/*푸터*/
+footer{
+    background:#333;
+    margin:3em 0;
+    color:#ababab;
+}
+footer .c-red{
+    color:#be1e2d;
+}
+.footer-info{
+    display: flex;
+}
+.footer-info a{
+    padding:0.5em 1em;
+    border:1px solid #ababab;
+}
+.footer-info a.cb-red{
+    color:#be1e2d;
+    border-color:#be1e2d;
+}
+.footer-address{
+    margin:2em 0 1em;
+    border-bottom:1px solid #5b5b5b;
+}
