@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {
+	outline:none; 
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	font-family: 'Noto Sans KR', dotum, Helvetica, sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    min-height:100%; 
+	-webkit-touch-callout:none; /*팝업창 차단하기*/
+	-webkit-touch-select:none; /*복사막기*/
+	-ms-user-select:none; /*텍스트 선택 불가*/
+	-moz-user-select:none; /*텍스트 선택 불가*/
+	-webkit-user-select:none; /*텍스트 선택 불가*/
+	-user-select:none;/*텍스트 선택 불가*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0); /*링크를 터치했을때 나오는 기본 영역의 색상을 제어*/
+	-webkit-overflow-scrolling:touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    *word-break: break-all;
+    -ms-word-break: break-all;
+    font-size: 1em;
+	-webkit-text-size-adjust:none;
+	overflow-x:hidden;
+}
+
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {
+    display: block;
+}
+section,
+article{
+	min-height:100%; 
+	position:relative;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+
+li {
+    list-style: none;
+}
+
+input, select, button {
+    vertical-align: middle;
+}
+input,
+select,
+textarea{
+	-webkit-appearance:none; /*form 요소 디바이스 기반 스타일 초기화*/
+}
+img {
+    vertical-align: top;
+    max-width:100%;
+    height:auto;
+}
+
+i, em, address {
+    font-style: normal;
+}
+
+label, button {
+    cursor: pointer;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-touch-callout:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -webkit-touch-select:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -ms-user-select:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -moz-user-select:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -webkit-user-select:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -user-select:none;/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);/*1초 이상 터치 시 발생하는 텍스트 선택창 오류 막기*/
+	color:currentColor;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+legend {
+    width: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table caption {display:none;}
+
+pre {
+	white-space: pre-wrap; /* CSS3*/
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-all; /* Internet Explorer 5.5+ */ 
+}
+
+/****************************** Class Setting ******************************/
+
+/* float release */
+.clearfix {*zoom: 1;}
+.clearfix:before,.clearfix:after {display: block;content: "";line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* sup*/
+sup{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+/*screen-out*/
+.screen-out{
+	display:none;
+	visibility:hidden; 
+	overflow:hidden; 
+	width:0; 
+	height:0;
+	font-size:0;
+	line-height:0;
+}
+#skip-navi{
+	position: absolute;
+    margin: 0;
+    left: 0;
+    top: -999em;
+    width: 100%;
+    height: 0;
+    z-index: 10001;
+}
