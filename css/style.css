@@ -20,9 +20,9 @@ footer .c-red{
     display: flex;
 }
 .footer-info a{
-    padding:0.5em 1em;
+    padding:0.3em 1.2em;
     border:1px solid #ababab;
-    margin-left:0.5em;
+    margin-left:0.7em;
 }
 .footer-info a:first-child{
     margin-left:0;
@@ -33,9 +33,11 @@ footer .c-red{
 }
 .footer-address{
     margin:2em 0 1em;
+    line-height: 1.8em;
     
 }
 .footer-address p{
-    margin:1em 0;
-    border-top:1px solid #5b5b5b;
+    padding-top: 1em;
+    border-top: 1px solid #5b5b5b;
+    margin-top: 1em;
 }
