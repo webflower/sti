@@ -10,7 +10,7 @@
 /*푸터*/
 footer{
     background:#333;
-    margin:3em 0;
+    padding:3em 0;
     color:#ababab;
 }
 footer .c-red{
@@ -22,6 +22,10 @@ footer .c-red{
 .footer-info a{
     padding:0.5em 1em;
     border:1px solid #ababab;
+    margin-left:0.5em;
+}
+.footer-info a:first-child{
+    margin-left:0;
 }
 .footer-info a.cb-red{
     color:#be1e2d;
@@ -29,5 +33,9 @@ footer .c-red{
 }
 .footer-address{
     margin:2em 0 1em;
-    border-bottom:1px solid #5b5b5b;
+    
+}
+.footer-address p{
+    margin:1em 0;
+    border-top:1px solid #5b5b5b;
 }
