@@ -37,6 +37,15 @@ $(document).ready(function(){
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+        on: {
+            slideChangeTransitionStart: function () {
+            $('.text-box h2, .text-box p').hide(0);
+            $('.text-box h2, .text-box p').removeClass('aos-init').removeClass('aos-animate');
+        },
+        slideChangeTransitionEnd: function () {
+            $('.text-box h2, .text-box p').show(0);
+            AOS.init();
+        },
       });
 
 
