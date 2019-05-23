@@ -39,10 +39,13 @@ $(document).ready(function(){
           prevEl: '.swiper-button-prev',
         },
         on: {
+            init : function(){
+                animateTag.removeClass('aos-init').removeClass('aos-animate');
+            },
             slideChangeTransitionStart: function () {
-            animateTag.hide(0);
-            animateTag.removeClass('aos-init').removeClass('aos-animate');
-        },
+                animateTag.hide(0);
+                animateTag.removeClass('aos-init').removeClass('aos-animate');
+            },
             slideChangeTransitionEnd: function () {
                 animateTag.show(0);
                 AOS.init();
