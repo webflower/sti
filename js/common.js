@@ -38,11 +38,14 @@ $(document).ready(function(){
         },
         on: {
             slideChangeTransitionStart: function () {
-            $('.text-box h2, .text-box p').hide(0);
-            $('.text-box h2, .text-box p').removeClass('aos-init').removeClass('aos-animate');
+            
+            var animateTag = $('.swiper-slide .text-box > h2,.swiper-slide .text-box > p');
+
+            animateTag.hide(0);
+            animateTag.removeClass('aos-init').removeClass('aos-animate');
         },
             slideChangeTransitionEnd: function () {
-                $('.text-box h2, .text-box p').show(0);
+                animateTag.show(0);
                 AOS.init();
             }
         }
