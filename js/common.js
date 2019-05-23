@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
     //메인배너 슬라이드
 
-    
+    animateTag = $('.swiper-slide .text-box > h2,.swiper-slide .text-box > p');
     var mainSwiper = new Swiper('.main-banner .swiper-container', {
         spaceBetween: 30,
         effect: 'fade',
@@ -41,7 +41,7 @@ $(document).ready(function(){
         on: {
             slideChangeTransitionStart: function () {
             
-            animateTag = $('.swiper-slide .text-box > h2,.swiper-slide .text-box > p');
+            
 
             animateTag.hide(0);
             animateTag.removeClass('aos-init').removeClass('aos-animate');
