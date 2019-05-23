@@ -25,6 +25,11 @@ header{
     color:#204496;
     border-bottom:2px solid #204496;
 }
+header .subcategory{
+    display:none;
+    opacity:0;
+    transition: 0.3 all;
+}
 /*메인*/
 /*푸터*/
 footer{
@@ -42,6 +47,8 @@ footer .c-red{
     padding:0.3em 1.2em;
     border:1px solid #ababab;
     margin-left:0.7em;
+    position: relative;
+    z-index:10;
 }
 .footer-info a:first-child{
     margin-left:0;
@@ -49,6 +56,15 @@ footer .c-red{
 .footer-info a.cb-red{
     color:#be1e2d;
     border-color:#be1e2d;
+}
+.footer-info a .dropdown{
+    position: absolute;
+    left: 0px;
+    bottom: 33px;
+    width: 100%;
+    height: 160px;
+    overflow: auto;
+    margin: 0;
 }
 .footer-address{
     margin:2em 0 1em;
