@@ -8,6 +8,10 @@
 /*헤더*/
 header{
     background:#fff;
+    height:auto;
+}
+header.hover{
+    height: 10em;
 }
 .header-inner{
     max-width:1820px;
