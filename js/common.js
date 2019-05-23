@@ -43,7 +43,6 @@ $(document).ready(function(){
             slideChangeTransitionStart: function () {
                 animateTag.hide(0);
                 animateTag.removeClass('aos-init').removeClass('aos-animate');
-                AOS.init();
             },
             slideChangeTransitionEnd: function () {
                 animateTag.show(0);
