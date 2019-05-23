@@ -28,7 +28,7 @@ header{
 header .subcategory{
     display:none;
     opacity:0;
-    transition: 0.3 all;
+    transition: 0.8s all;
 }
 /*메인*/
 /*푸터*/

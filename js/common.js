@@ -4,12 +4,12 @@ $(document).ready(function(){
     $(".header-menu a, .subcategory").mouseover(function(){
         $(".subcategory").css({
             opacity : 1
-        }).slideDown();
+        }).stop().slideDown();
         $(this).addClass("on");
     }).mouseleave(function(){
         $(".subcategory").css({
             opacity : 0
-        }).slideUp();
+        }).stop().slideUp();
         $(this).removeClass("on");
     })
 
