@@ -33,6 +33,9 @@ header .logo{
     display:flex;
     justify-content: space-between;
 }
+nav{
+    max-width: 870px;
+}
 .header-menu a{
     padding:3em 0;
 }

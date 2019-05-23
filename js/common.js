@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+    //애니메이트 효과 선언
+    AOS.init();
+    
     //헤더 메뉴
     var headerMenuList = $(".header-menu a");
     var subcategory = $(".subcategory");
