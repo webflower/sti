@@ -8,16 +8,16 @@ $(document).ready(function(){
     //헤더 메뉴
     headerMenuList.mouseenter(function(){
         headerMenuList.removeClass("on");
-        subcategory.css({
+        subcategory.stop().slideDown(500).css({
             opacity : 1
-        }).stop().slideDown(800);
+        });
         header.addClass("hover");
         $(this).addClass("on");
     });
     nav.mouseleave(function(){
-            $(".subcategory").css({
+            $(".subcategory").stop().slideUp(500).css({
                 opacity : 0
-            }).stop().slideUp(800);
+            });
             header.removeClass("hover");
             $(this).removeClass("on");
 
