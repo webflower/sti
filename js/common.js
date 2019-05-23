@@ -9,14 +9,16 @@ $(document).ready(function(){
     headerMenuList.mouseenter(function(){
         headerMenuList.removeClass("on");
         subcategory.css({
-            opacity : 1
+            opacity : 1,
+            display: "block"
         });
         header.addClass("hover").animate(500);
         $(this).addClass("on");
     });
     nav.mouseleave(function(){
             $(".subcategory").css({
-                opacity : 0
+                opacity : 0,
+                display: "none"
             });
             header.removeClass("hover").animate(500);
             $(this).removeClass("on");
