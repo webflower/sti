@@ -12,7 +12,7 @@ $(document).ready(function(){
         }).stop().slideDown();
         $(this).addClass("on");
     }).mouseleave(function(){
-        if(subcategory.is(":hover") || headerMenuList.is(":hover")){
+        if(subcategory.is(":hover")){
             return false;
         }else{
             $(".subcategory").css({
