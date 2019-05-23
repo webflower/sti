@@ -22,7 +22,15 @@ $(document).ready(function(){
             headerMenuList.removeClass("on");
 
     });
+    //메인배너 슬라이드
+    var mainSwiper = new Swiper('.main-banner .swiper-container', {
+        spaceBetween: 30,
+        effect: 'fade',
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
 
-    
 
 })
