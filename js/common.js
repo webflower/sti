@@ -38,17 +38,15 @@ $(document).ready(function(){
         },
         on: {
             slideChangeTransitionStart: function () {
-            $('.text-box').hide(0);
-            $('.text-box').removeClass('aos-init').removeClass('aos-animate');
+            $('.text-box h2, .text-box p').hide(0);
+            $('..text-box h2, .text-box p').removeClass('aos-init').removeClass('aos-animate');
         },
             slideChangeTransitionEnd: function () {
-                $('.text-box').show(0);
+                $('.text-box h2, .text-box p').show(0);
                 AOS.init();
             }
         }
 
       });
-        //애니메이트 효과 선언
-        AOS.init();
 
 })
