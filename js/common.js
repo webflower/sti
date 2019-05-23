@@ -11,14 +11,14 @@ $(document).ready(function(){
         subcategory.css({
             opacity : 1
         });
-        header.addClass("hover").stop().slideDown();
+        header.addClass("hover").animate(500);
         $(this).addClass("on");
     });
     nav.mouseleave(function(){
             $(".subcategory").css({
                 opacity : 0
             });
-            header.remove("hover").stop().slideUp();
+            header.removeClass("hover").animate(500);
             $(this).removeClass("on");
 
     });
