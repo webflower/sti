@@ -71,6 +71,9 @@ header .subcategory-menu li{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-bottom:100%;
 }
 /*푸터*/
 footer{
