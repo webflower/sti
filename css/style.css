@@ -79,9 +79,21 @@ header .subcategory-menu li{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
-    padding-bottom:54%;
+    min-height: 100vh;
+}
+.main-banner .swiper-slide .text-box{
+    position: absolute;
+    top: 54%;
+    left: 21%;
+    color: #fff;
+    text-align: left;
+}
+.main-banner .swiper-slide .text-box h2{
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 /*푸터*/
 footer{
