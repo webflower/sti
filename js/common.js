@@ -6,6 +6,7 @@ $(document).ready(function(){
 
     //헤더 메뉴
     headerMenuList.mouseenter(function(){
+        headerMenuList.removeClass("on");
         subcategory.css({
             opacity : 1
         }).stop().slideDown();
