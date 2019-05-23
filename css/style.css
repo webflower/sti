@@ -15,7 +15,7 @@ header.hover{
     /* height: 40em; */
 }
 header .logo{
-    float:left;
+    position:absolute;
     margin:1em 0;
 }
 .header-inner{
