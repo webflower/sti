@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
-
+    //헤더 메뉴
     var headerMenuList = $(".header-menu a");
     var subcategory = $(".subcategory");
     var header = $("header");
     var nav = $("nav");
-    //헤더 메뉴
+    
     headerMenuList.mouseenter(function(){
         headerMenuList.removeClass("on");
         subcategory.stop().slideDown(500).css({
@@ -19,8 +19,10 @@ $(document).ready(function(){
                 opacity : 0
             });
             header.removeClass("hover");
-            $(this).removeClass("on");
+            headerMenuList.removeClass("on");
 
     });
+
+    
 
 })
