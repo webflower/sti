@@ -7,11 +7,12 @@
 }
 /*헤더*/
 header{
-    background:#fff;
+    background:rgba(255,255,255,0.9);
     height:auto;
 }
 header.hover{
-    height: 40em;
+    background:#fff;
+    /* height: 40em; */
 }
 header .logo{
     float:left;
