@@ -11,15 +11,12 @@ $(document).ready(function(){
             opacity : 1
         }).stop().slideDown();
         $(this).addClass("on");
-    }).mouseleave(function(event){
-        if(subcategory.is(":hover")){
-            event.preventDefault();
-        }else{
+    }).mouseleave(function(){
             $(".subcategory").css({
                 opacity : 0
             }).stop().slideUp();
             $(this).removeClass("on");
-        }
+
     });
     // subcategory.mouseleave(function(){
 
