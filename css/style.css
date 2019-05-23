@@ -94,6 +94,15 @@ header .subcategory-menu li{
     font-size: 2em;
     margin-bottom: 0.5em;
 }
+.main .about .flex-box{
+    display:flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.flex-column{
+    -webkit-flex-direction:column;
+    flex-direction:column;
+}
 /*푸터*/
 footer{
     background:#333;
