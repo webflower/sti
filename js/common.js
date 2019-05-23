@@ -40,9 +40,6 @@ $(document).ready(function(){
         },
         on: {
             slideChangeTransitionStart: function () {
-            
-            
-
             animateTag.hide(0);
             animateTag.removeClass('aos-init').removeClass('aos-animate');
         },
