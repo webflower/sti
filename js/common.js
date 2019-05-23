@@ -11,9 +11,9 @@ $(document).ready(function(){
             opacity : 1
         }).stop().slideDown();
         $(this).addClass("on");
-    }).mouseleave(function(){
+    }).mouseleave(function(event){
         if(subcategory.is(":hover")){
-            return false;
+            event.preventDefault();
         }else{
             $(".subcategory").css({
                 opacity : 0
