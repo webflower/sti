@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     //헤더 메뉴
-    $(".header-menu a").mouseover(function(){
+    $(".header-menu a, .subcategory").mouseover(function(){
         $(".subcategory").css({
             opacity : 1
         }).slideDown();
