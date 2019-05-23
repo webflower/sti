@@ -93,10 +93,22 @@ header .subcategory-menu li{
     font-size: 2em;
     margin-bottom: 0.5em;
 }
+.main .about{
+    margin:5em 0;
+}
 .main .about .flex-box{
     display:flex;
     -webkit-align-items: stretch;
     align-items: stretch;
+}
+.main .about .flex-box .tripple{
+    display: flex;
+}
+.main .about .flex-box .tripple > div{
+    border:1px solid #eee;
+    padding:2em 1em;
+    text-align: center;
+    flex-direction: column;
 }
 .flex-column{
     -webkit-flex-direction:column;
