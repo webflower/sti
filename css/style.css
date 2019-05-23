@@ -39,12 +39,16 @@ header .subcategory{
     /* display:none; */
     opacity:0;
     transition: 0.8s all;
+    padding:2em 0;
 }
 header .subcategory-menu{
     max-width: 870px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
+}
+header .subcategory-menu li{
+    padding:1em 0;
 }
 /*메인*/
 /*푸터*/
