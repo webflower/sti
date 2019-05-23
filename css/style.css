@@ -7,8 +7,13 @@
 }
 /*헤더*/
 header{
-    background:rgba(255,255,255,0.9);
-    height:auto;
+    background: rgba(255,255,255,0.9);
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
 }
 header.hover{
     background:#fff;
@@ -54,7 +59,7 @@ header .subcategory-menu li{
 .main-banner .swiper-container {
     width: 100%;
     height: 100%;
-  }
+}
 .main-banner .swiper-slide {
     text-align: center;
     background: #fff;
@@ -73,7 +78,7 @@ header .subcategory-menu li{
     align-items: center;
     background-size:contain;
     background-repeat: no-repeat;
-    padding-bottom:100%;
+    padding-bottom:54%;
 }
 /*푸터*/
 footer{
