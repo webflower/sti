@@ -34,6 +34,7 @@ $(document).ready(function(){
         //     delay: 2500,
         //     disableOnInteraction: false,
         // },
+        speed : 1000,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
