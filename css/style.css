@@ -24,8 +24,7 @@ header .logo{
     margin:1em 0;
 }
 .header-inner{
-    max-width:1820px;
-    margin:0 auto;
+    padding:0 2em;
 }
 .header-menu{
     display:flex;
