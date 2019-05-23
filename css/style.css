@@ -28,13 +28,12 @@ header .logo{
     margin:0 auto;
 }
 .header-menu{
-    max-width:870px;
-    margin:0 auto;
     display:flex;
     justify-content: space-between;
 }
 nav{
     max-width: 870px;
+    margin:0 auto;
 }
 .header-menu a{
     padding:3em 0;
@@ -50,8 +49,8 @@ header .subcategory{
     padding:2em 0;
 }
 header .subcategory-menu{
-    max-width: 870px;
-    margin:0 auto;
+    /* max-width: 870px;
+    margin:0 auto; */
     display: flex;
     justify-content: space-between;
 }
