@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     //애니메이트 효과 선언
     AOS.init();
-    
+
     //헤더 메뉴
     var headerMenuList = $(".header-menu a");
     var subcategory = $(".subcategory");
@@ -29,10 +29,10 @@ $(document).ready(function(){
     var mainSwiper = new Swiper('.main-banner .swiper-container', {
         spaceBetween: 30,
         effect: 'fade',
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        // },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
