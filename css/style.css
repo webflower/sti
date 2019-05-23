@@ -11,7 +11,7 @@ header{
     height:auto;
 }
 header.hover{
-    height: 10em;
+    height: 40em;
 }
 .header-inner{
     max-width:1820px;
@@ -69,13 +69,13 @@ footer .c-red{
     border-color:#be1e2d;
 }
 .footer-info a .dropdown{
-    position: absolute;
-    left: 0;
+    /* position: absolute; */
+    /* left: 0; */
     width: 100%;
     height: auto;
     overflow: auto;
     margin: 0;
-    top: 36px;
+    /* top: 36px; */
     border: 1px solid #ababab;
 }
 .footer-info a .dropdown li{
