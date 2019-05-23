@@ -1,16 +1,30 @@
 $(document).ready(function(){
 
+
+    var headerMenuList = $(".header-menu a");
+    var subcategory = $(".subcategory");
+
     //헤더 메뉴
-    $(".header-menu a, .subcategory").mouseover(function(){
-        $(".subcategory").css({
+    headerMenuList.mouseenter(function(){
+        subcategory.css({
             opacity : 1
         }).stop().slideDown();
         $(this).addClass("on");
     }).mouseleave(function(){
-        $(".subcategory").css({
-            opacity : 0
-        }).stop().slideUp();
-        $(this).removeClass("on");
-    })
+        if(subcategory.is(":hover") && headerMenuList.is(":hover")){
+            return false;
+        }else{
+            $(".subcategory").css({
+                opacity : 0
+            }).stop().slideUp();
+            $(this).removeClass("on");
+        }
+    });
+    // subcategory.mouseleave(function(){
+
+    // })
+
+    // $()
+    
 
 })
