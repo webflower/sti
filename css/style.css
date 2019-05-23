@@ -80,7 +80,6 @@ header .subcategory-menu li{
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    transition: 0.5s all;
 }
 .main-banner .swiper-slide .text-box{
     position: absolute;
